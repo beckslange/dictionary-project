@@ -1,14 +1,19 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <input type="submit" className="btn btn-primary" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <Dictionary />
+          <form>
+            <input type="search" />
+            <input type="submit" className="btn btn-primary" />
+          </form>
+        </header>
+      </div>
     </div>
   );
 }
-
-export default App;
