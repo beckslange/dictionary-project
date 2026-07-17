@@ -5,9 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a href="" className="btn btn-primary">
-          Hello
-        </a>
+        <input type="submit" className="btn btn-primary" />
       </header>
     </div>
   );
